@@ -2,14 +2,13 @@
 #include "AdafruitIO_WiFi.h"
 
 
-
 // ตั้งค่า key ของ Adafruit IO
-#define IO_USERNAME  "penpencool"
-#define IO_KEY       "4a626012c1c146448c8cf23a695a37a70"
+#define IO_USERNAME "แก้ไข_username"
+#define IO_KEY "แก้ไข_key"
 
 // ตั้งค่าชื่อ wifi
-#define WIFI_SSID "wifi"
-#define WIFI_PASS "password"
+#define WIFI_SSID "แก้ไขชื่อ_wifi"
+#define WIFI_PASS "แก้ไขรหัสผ่าน_wifi"
 
 AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS); // สร้างออปเจกชื่อ io สำหรับติดต่อ Adafruit IO
 AdafruitIO_Feed *analog = io.feed("vr"); // สร้างออปเจกสำหรับติดต่อ feed ชื่อ vr
